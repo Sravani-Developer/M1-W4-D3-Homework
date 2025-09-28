@@ -1,0 +1,95 @@
+/* Simple classic look matching the screenshots */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000
+}
+
+.wrap {
+    max-width: 395px;
+    margin: 40px auto
+}
+
+form {
+    margin: 0
+}
+
+fieldset {
+    border: 1px solid #999;
+    padding: 18px 18px 16px;
+}
+
+legend {
+    padding: 0 6px;
+    font-size: 16px
+}
+
+label {
+    display: block;
+    margin: 10px 0 6px
+}
+
+.group-label {
+    margin: 12px 0 6px
+}
+
+.radio {
+    display: inline-block;
+    margin-right: 18px
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 60%;
+    border: 1px solid #808080;
+    height: 26px;
+    padding: 2px 6px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: auto;
+    resize: vertical
+}
+
+.mt {
+    margin-top: 14px
+}
+
+.reveal {
+    display: none;
+    margin-top: 8px
+}
+
+/* Button like the slide */
+.btn {
+    display: block;
+    margin-top: 16px;
+    padding: 6px 16px;
+    border: 1px solid #808080;
+    background: #e6e6e6;
+    color: #000;
+    cursor: pointer;
+}
+
+.btn:hover {
+    filter: brightness(0.98)
+}
+
+/* Screen-reader only text for announcements */
+.sr {
+    position: absolute !important;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
